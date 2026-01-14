@@ -1,0 +1,24 @@
+{
+  "name": "b4-b5-maj-proj-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend:start": "nodemon index.js",
+    "frontend:start": "cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "connect-mongodb-session": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mongoose": "^8.20.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.11"
+  }
+}
