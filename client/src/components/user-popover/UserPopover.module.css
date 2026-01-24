@@ -1,0 +1,34 @@
+.popoverCard {
+    min-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.avatar {
+    background-color: #007bff;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.innerAvatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #2563eb;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
