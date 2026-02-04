@@ -1,0 +1,97 @@
+.background-img {
+    background: #f1f5f9;
+
+    overflow-y: auto;
+}
+
+/* Page animation */
+.signup-page {
+    animation: fadeScale 0.8s ease forwards;
+
+}
+
+/* Panels */
+.left-panel {
+    animation: slideLeft 1s ease;
+}
+
+.right-panel {
+    animation: slideRight 1s ease;
+}
+
+/* Fade animations */
+.animate-fade-up {
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.animate-fade-down {
+    animation: fadeDown 0.8s ease forwards;
+    color: rgb(40, 40, 83);
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease forwards;
+}
+
+/* Delays */
+.delay-1 {
+    animation-delay: 0.2s;
+}
+
+.delay-2 {
+    animation-delay: 0.4s;
+}
+
+/* Inputs */
+.animated-input input,
+.animated-input textarea {
+    transition: all 0.3s ease;
+}
+
+.animated-input input:focus,
+.animated-input textarea:focus {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 0.2rem rgba(43, 64, 255, 0.25);
+}
+
+/* Password eye */
+.password-eye {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.password-eye:hover {
+    transform: scale(1.2);
+}
+
+/* Buttons */
+.signup-btn {
+    transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(43, 64, 255, 0.4);
+}
+
+/* Pulse effect */
+.animate-pulse {
+    animation: pulse 2s infinite;
+}
+
+.road-line {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: repeating-linear-gradient(to right,
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.8) 12px,
+            transparent 12px,
+            transparent 24px);
+    opacity: 0.8;
+}
