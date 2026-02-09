@@ -1,0 +1,49 @@
+.timeline {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 30px;
+    border-left: 3px solid #0d6efd;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-icon {
+    position: absolute;
+    left: -13px;
+    top: 0;
+    width: 26px;
+    height: 26px;
+    background: #0d6efd;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 3px #0d6efd;
+}
+
+.timeline-content {
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid rgba(13, 110, 253, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+.timeline-content:hover {
+    background: #eef3ff;
+}
+
+.timeline-content h5 {
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .timeline {
+        padding-left: 20px;
+    }
+
+    .timeline-content {
+        padding: 12px;
+    }
+}
