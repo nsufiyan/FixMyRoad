@@ -1,0 +1,17 @@
+.faq-accordion .accordion-button {
+    font-weight: 600;
+    background: #f8f9fa;
+}
+
+.faq-accordion .accordion-button:not(.collapsed) {
+    color: #0d6efd;
+    background: #e7f1ff;
+    box-shadow: none;
+}
+
+.accordion-item {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
