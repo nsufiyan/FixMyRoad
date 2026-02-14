@@ -1,0 +1,37 @@
+.pageWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileMain {
+  flex: 1;
+}
+
+.profileHeader {
+  background: linear-gradient(135deg, #17a2b8, #138496);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.profileCard {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profileCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.btnGradient {
+  background: linear-gradient(135deg, #17a2b8, #138496);
+  color: white;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btnGradient:hover {
+  background: linear-gradient(135deg, #138496, #17a2b8);
+  color: white;
+}
