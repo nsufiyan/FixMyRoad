@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import MapComponent from "../../components/map-component/MapComponent";
 import axiosInstance from "../../util/axiosInstance";
-import styles from "./AdminDashboard.module.css";
+
 
 const { VITE_BASE_URL } = import.meta.env;
 
