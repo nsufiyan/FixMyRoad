@@ -51,7 +51,7 @@ mongoose
     console.log(error);
   });
 
-//log
+//log 
 app.use((req, res, next) => {
   console.log(`${new Date()} :: ${req.method} :: ${req.path}`);
   next();
@@ -65,4 +65,4 @@ app.use("/contactus", ContactUsRouter)
 //server started 
 app.listen(process.env.PORT, () => {
   console.log(`Server started successfully on port ${process.env.PORT}`);
-});
+}) 
