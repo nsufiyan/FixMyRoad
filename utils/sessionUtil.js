@@ -4,7 +4,7 @@ const validateSession = (req, res, next) => {
   } else {
     res.json({
       success: false,
-      message: "No active session, please login again.",
+      message: "No Active Session, please login again.",
     });
   }
 };
