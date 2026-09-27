@@ -621,14 +621,6 @@ git push origin feature/your-feature
 
 ---
 
-## 📄 License
-
-This project is currently available for educational and development purposes.
-
-If you intend to distribute or modify the project under an open-source license, add an appropriate `LICENSE` file to the repository.
-
----
-
 ## 👨‍💻 Author
 
 **SN Sufiyan**
