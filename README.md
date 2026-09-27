@@ -538,8 +538,6 @@ The combination of **location-based reporting, image uploads, complaint manageme
 
 Potential future enhancements include:
 
-* 👨‍💼 Dedicated administrator dashboard
-* 🔐 Role-based authorization
 * 📊 Complaint analytics and reporting
 * 🔔 Push notifications
 * 🤖 AI-based pothole and road-damage detection
